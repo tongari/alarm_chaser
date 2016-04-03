@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5711AEFD1B02D1D500F9E26C /* TimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5711AEFC1B02D1D500F9E26C /* TimeManager.m */; };
+		5711AF001B0302EB00F9E26C /* UserDefalutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5711AEFF1B0302EB00F9E26C /* UserDefalutManager.m */; };
+		5711AF021B03347A00F9E26C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5711AF011B03347A00F9E26C /* AVFoundation.framework */; };
+		5711AF051B0334D500F9E26C /* AlarmManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5711AF041B0334D500F9E26C /* AlarmManager.m */; };
+		571FB7EC1B0CABB2002A998F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 571FB7EE1B0CABB2002A998F /* InfoPlist.strings */; };
+		574482F11B01DC020094A035 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 574482F01B01DC020094A035 /* CustomButton.m */; };
+		574482F31B01F1340094A035 /* ico_calc_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 574482F21B01F1340094A035 /* ico_calc_back.png */; };
+		574482F51B0224130094A035 /* ico_ok_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 574482F41B0224130094A035 /* ico_ok_arrow.png */; };
+		57474BA21B043CB0003193CD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57474BA11B043CB0003193CD /* AudioToolbox.framework */; };
+		577269821B04FDF2009B6507 /* answer_02.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5772697F1B04FDF2009B6507 /* answer_02.caf */; };
+		577269831B04FDF2009B6507 /* error_02.caf in Resources */ = {isa = PBXBuildFile; fileRef = 577269801B04FDF2009B6507 /* error_02.caf */; };
+		577269841B04FDF2009B6507 /* warning_04-high.caf in Resources */ = {isa = PBXBuildFile; fileRef = 577269811B04FDF2009B6507 /* warning_04-high.caf */; };
+		57748E851B1D7EAF009A5E1E /* warning_04-high.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57748E841B1D7EAF009A5E1E /* warning_04-high.mp3 */; };
+		577CE78A1B05E46500B9BB8B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577CE7891B05E46500B9BB8B /* CoreMotion.framework */; };
+		577CE78D1B05E49900B9BB8B /* ShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 577CE78C1B05E49900B9BB8B /* ShakeViewController.m */; };
+		577F22141B7DF54A00C886F1 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577F22131B7DF54A00C886F1 /* iAd.framework */; };
+		5780F9E01B058BAE0076BFE9 /* Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 5780F9DF1B058BAE0076BFE9 /* Router.m */; };
+		578F6AC21B099DFF00BDCFCE /* ico_ok_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 578F6AC01B099DFF00BDCFCE /* ico_ok_arrow@2x.png */; };
+		578F6AC31B099DFF00BDCFCE /* ico_ok_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 578F6AC11B099DFF00BDCFCE /* ico_ok_arrow@3x.png */; };
+		57A06BD01B09BF7C009C8A97 /* ico_calc_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57A06BCD1B09BF7C009C8A97 /* ico_calc_back@2x.png */; };
+		57A06BD11B09BF7C009C8A97 /* ico_calc_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57A06BCE1B09BF7C009C8A97 /* ico_calc_back@3x.png */; };
+		57A06BD51B09C0F0009C8A97 /* ico-shake.png in Resources */ = {isa = PBXBuildFile; fileRef = 57A06BD21B09C0F0009C8A97 /* ico-shake.png */; };
+		57A06BD61B09C0F0009C8A97 /* ico-shake@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57A06BD31B09C0F0009C8A97 /* ico-shake@2x.png */; };
+		57A06BD71B09C0F0009C8A97 /* ico-shake@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57A06BD41B09C0F0009C8A97 /* ico-shake@3x.png */; };
+		57C86A411B038F9C009C11EB /* CalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C86A401B038F9C009C11EB /* CalcViewController.m */; };
+		57EB5FD41B01D45A00F786C2 /* Alarm-Clock-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EB5FD31B01D45A00F786C2 /* Alarm-Clock-100.png */; };
+		57F3A8EB1B018F2B0038FB0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F3A8EA1B018F2B0038FB0F /* main.m */; };
+		57F3A8F41B018F2B0038FB0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F3A8F21B018F2B0038FB0F /* Main.storyboard */; };
+		57F3A8F61B018F2B0038FB0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F3A8F51B018F2B0038FB0F /* Images.xcassets */; };
+		57F3A8F91B018F2B0038FB0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57F3A8F71B018F2B0038FB0F /* LaunchScreen.xib */; };
+		57F3A9051B018F2B0038FB0F /* AlarmChaserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F3A9041B018F2B0038FB0F /* AlarmChaserTests.m */; };
+		57F3A9151B0195380038FB0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F3A9141B0195380038FB0F /* AppDelegate.m */; };
+		57F3A9181B0195500038FB0F /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F3A9171B0195500038FB0F /* ClockViewController.m */; };
+		57F3A91B1B01963B0038FB0F /* ico_to_setting_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 57F3A91A1B01963B0038FB0F /* ico_to_setting_arrow.png */; };
+		57F3A9201B01971E0038FB0F /* AxisStd-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57F3A91D1B01971E0038FB0F /* AxisStd-ExtraLight.otf */; };
+		57F3A9211B01971E0038FB0F /* AxisStd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57F3A91E1B01971E0038FB0F /* AxisStd-Light.otf */; };
+		57F3A9221B01971E0038FB0F /* AxisStd-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57F3A91F1B01971E0038FB0F /* AxisStd-UltraLight.otf */; };
+		57F3A9281B01A3280038FB0F /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F3A9271B01A3280038FB0F /* SettingViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57F3A8FF1B018F2B0038FB0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57F3A8DD1B018F2B0038FB0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57F3A8E41B018F2B0038FB0F;
+			remoteInfo = AlarmChaser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5711AEFB1B02D1D500F9E26C /* TimeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeManager.h; path = classes/viewmodel/TimeManager.h; sourceTree = "<group>"; };
+		5711AEFC1B02D1D500F9E26C /* TimeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeManager.m; path = classes/viewmodel/TimeManager.m; sourceTree = "<group>"; };
+		5711AEFE1B0302EB00F9E26C /* UserDefalutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserDefalutManager.h; path = classes/viewmodel/UserDefalutManager.h; sourceTree = "<group>"; };
+		5711AEFF1B0302EB00F9E26C /* UserDefalutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserDefalutManager.m; path = classes/viewmodel/UserDefalutManager.m; sourceTree = "<group>"; };
+		5711AF011B03347A00F9E26C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5711AF031B0334D500F9E26C /* AlarmManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlarmManager.h; path = classes/viewmodel/AlarmManager.h; sourceTree = "<group>"; };
+		5711AF041B0334D500F9E26C /* AlarmManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlarmManager.m; path = classes/viewmodel/AlarmManager.m; sourceTree = "<group>"; };
+		571FB7ED1B0CABB2002A998F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		574482EF1B01DC020094A035 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomButton.h; path = classes/view/CustomButton.h; sourceTree = "<group>"; };
+		574482F01B01DC020094A035 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomButton.m; path = classes/view/CustomButton.m; sourceTree = "<group>"; };
+		574482F21B01F1340094A035 /* ico_calc_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_calc_back.png; path = resource/images/ico_calc_back.png; sourceTree = "<group>"; };
+		574482F41B0224130094A035 /* ico_ok_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_ok_arrow.png; path = resource/images/ico_ok_arrow.png; sourceTree = "<group>"; };
+		57474BA11B043CB0003193CD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5772697F1B04FDF2009B6507 /* answer_02.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = answer_02.caf; path = resource/sound/answer_02.caf; sourceTree = "<group>"; };
+		577269801B04FDF2009B6507 /* error_02.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = error_02.caf; path = resource/sound/error_02.caf; sourceTree = "<group>"; };
+		577269811B04FDF2009B6507 /* warning_04-high.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "warning_04-high.caf"; path = "resource/sound/warning_04-high.caf"; sourceTree = "<group>"; };
+		57748E841B1D7EAF009A5E1E /* warning_04-high.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "warning_04-high.mp3"; path = "resource/sound/warning_04-high.mp3"; sourceTree = "<group>"; };
+		577CE7891B05E46500B9BB8B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		577CE78B1B05E49900B9BB8B /* ShakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShakeViewController.h; path = classes/controller/ShakeViewController.h; sourceTree = "<group>"; };
+		577CE78C1B05E49900B9BB8B /* ShakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShakeViewController.m; path = classes/controller/ShakeViewController.m; sourceTree = "<group>"; };
+		577F22131B7DF54A00C886F1 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		5780F9DE1B058BAE0076BFE9 /* Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Router.h; path = classes/Router.h; sourceTree = "<group>"; };
+		5780F9DF1B058BAE0076BFE9 /* Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Router.m; path = classes/Router.m; sourceTree = "<group>"; };
+		578F6AC01B099DFF00BDCFCE /* ico_ok_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ico_ok_arrow@2x.png"; path = "resource/images/ico_ok_arrow@2x.png"; sourceTree = "<group>"; };
+		578F6AC11B099DFF00BDCFCE /* ico_ok_arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ico_ok_arrow@3x.png"; path = "resource/images/ico_ok_arrow@3x.png"; sourceTree = "<group>"; };
+		57A06BCD1B09BF7C009C8A97 /* ico_calc_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ico_calc_back@2x.png"; path = "resource/images/ico_calc_back@2x.png"; sourceTree = "<group>"; };
+		57A06BCE1B09BF7C009C8A97 /* ico_calc_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ico_calc_back@3x.png"; path = "resource/images/ico_calc_back@3x.png"; sourceTree = "<group>"; };
+		57A06BD21B09C0F0009C8A97 /* ico-shake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ico-shake.png"; path = "resource/images/ico-shake.png"; sourceTree = "<group>"; };
+		57A06BD31B09C0F0009C8A97 /* ico-shake@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ico-shake@2x.png"; path = "resource/images/ico-shake@2x.png"; sourceTree = "<group>"; };
+		57A06BD41B09C0F0009C8A97 /* ico-shake@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ico-shake@3x.png"; path = "resource/images/ico-shake@3x.png"; sourceTree = "<group>"; };
+		57C86A3F1B038F9C009C11EB /* CalcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalcViewController.h; path = classes/controller/CalcViewController.h; sourceTree = "<group>"; };
+		57C86A401B038F9C009C11EB /* CalcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalcViewController.m; path = classes/controller/CalcViewController.m; sourceTree = "<group>"; };
+		57EB5FD31B01D45A00F786C2 /* Alarm-Clock-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Alarm-Clock-100.png"; path = "resource/images/Alarm-Clock-100.png"; sourceTree = "<group>"; };
+		57F3A8E51B018F2B0038FB0F /* AlarmChaser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmChaser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F3A8E91B018F2B0038FB0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F3A8EA1B018F2B0038FB0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57F3A8F31B018F2B0038FB0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57F3A8F51B018F2B0038FB0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		57F3A8F81B018F2B0038FB0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		57F3A8FE1B018F2B0038FB0F /* AlarmChaserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmChaserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F3A9031B018F2B0038FB0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F3A9041B018F2B0038FB0F /* AlarmChaserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmChaserTests.m; sourceTree = "<group>"; };
+		57F3A9131B0195380038FB0F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = classes/AppDelegate.h; sourceTree = "<group>"; };
+		57F3A9141B0195380038FB0F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = classes/AppDelegate.m; sourceTree = "<group>"; };
+		57F3A9161B0195500038FB0F /* ClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClockViewController.h; path = classes/controller/ClockViewController.h; sourceTree = "<group>"; };
+		57F3A9171B0195500038FB0F /* ClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClockViewController.m; path = classes/controller/ClockViewController.m; sourceTree = "<group>"; };
+		57F3A91A1B01963B0038FB0F /* ico_to_setting_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_to_setting_arrow.png; path = resource/images/ico_to_setting_arrow.png; sourceTree = "<group>"; };
+		57F3A91D1B01971E0038FB0F /* AxisStd-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AxisStd-ExtraLight.otf"; path = "resource/font/AxisStd-ExtraLight.otf"; sourceTree = "<group>"; };
+		57F3A91E1B01971E0038FB0F /* AxisStd-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AxisStd-Light.otf"; path = "resource/font/AxisStd-Light.otf"; sourceTree = "<group>"; };
+		57F3A91F1B01971E0038FB0F /* AxisStd-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AxisStd-UltraLight.otf"; path = "resource/font/AxisStd-UltraLight.otf"; sourceTree = "<group>"; };
+		57F3A9261B01A3280038FB0F /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingViewController.h; path = classes/controller/SettingViewController.h; sourceTree = "<group>"; };
+		57F3A9271B01A3280038FB0F /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingViewController.m; path = classes/controller/SettingViewController.m; sourceTree = "<group>"; wrapsLines = 1; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57F3A8E21B018F2B0038FB0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577F22141B7DF54A00C886F1 /* iAd.framework in Frameworks */,
+				577CE78A1B05E46500B9BB8B /* CoreMotion.framework in Frameworks */,
+				57474BA21B043CB0003193CD /* AudioToolbox.framework in Frameworks */,
+				5711AF021B03347A00F9E26C /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F3A8FB1B018F2B0038FB0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5711AEFA1B02B75F00F9E26C /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				5711AEFB1B02D1D500F9E26C /* TimeManager.h */,
+				5711AEFC1B02D1D500F9E26C /* TimeManager.m */,
+				5711AEFE1B0302EB00F9E26C /* UserDefalutManager.h */,
+				5711AEFF1B0302EB00F9E26C /* UserDefalutManager.m */,
+				5711AF031B0334D500F9E26C /* AlarmManager.h */,
+				5711AF041B0334D500F9E26C /* AlarmManager.m */,
+			);
+			name = viewmodel;
+			sourceTree = "<group>";
+		};
+		5711AF061B03371400F9E26C /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				57748E841B1D7EAF009A5E1E /* warning_04-high.mp3 */,
+				5772697F1B04FDF2009B6507 /* answer_02.caf */,
+				577269801B04FDF2009B6507 /* error_02.caf */,
+				577269811B04FDF2009B6507 /* warning_04-high.caf */,
+			);
+			name = sound;
+			sourceTree = "<group>";
+		};
+		57F3A8DC1B018F2B0038FB0F = {
+			isa = PBXGroup;
+			children = (
+				577F22131B7DF54A00C886F1 /* iAd.framework */,
+				577CE7891B05E46500B9BB8B /* CoreMotion.framework */,
+				57474BA11B043CB0003193CD /* AudioToolbox.framework */,
+				5711AF011B03347A00F9E26C /* AVFoundation.framework */,
+				57F3A8E71B018F2B0038FB0F /* AlarmChaser */,
+				57F3A9011B018F2B0038FB0F /* AlarmChaserTests */,
+				57F3A8E61B018F2B0038FB0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57F3A8E61B018F2B0038FB0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57F3A8E51B018F2B0038FB0F /* AlarmChaser.app */,
+				57F3A8FE1B018F2B0038FB0F /* AlarmChaserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57F3A8E71B018F2B0038FB0F /* AlarmChaser */ = {
+			isa = PBXGroup;
+			children = (
+				5780F9DE1B058BAE0076BFE9 /* Router.h */,
+				5780F9DF1B058BAE0076BFE9 /* Router.m */,
+				5711AEFA1B02B75F00F9E26C /* viewmodel */,
+				57F3A9131B0195380038FB0F /* AppDelegate.h */,
+				57F3A9141B0195380038FB0F /* AppDelegate.m */,
+				57F3A9121B0194760038FB0F /* ibview */,
+				57F3A9111B0194550038FB0F /* controller */,
+				57F3A9101B01944C0038FB0F /* model */,
+				57F3A90F1B0194430038FB0F /* view */,
+				57F3A90E1B01936B0038FB0F /* resource */,
+				57F3A8E81B018F2B0038FB0F /* Supporting Files */,
+			);
+			path = AlarmChaser;
+			sourceTree = "<group>";
+		};
+		57F3A8E81B018F2B0038FB0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57F3A8E91B018F2B0038FB0F /* Info.plist */,
+				57F3A8EA1B018F2B0038FB0F /* main.m */,
+				571FB7EE1B0CABB2002A998F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57F3A9011B018F2B0038FB0F /* AlarmChaserTests */ = {
+			isa = PBXGroup;
+			children = (
+				57F3A9041B018F2B0038FB0F /* AlarmChaserTests.m */,
+				57F3A9021B018F2B0038FB0F /* Supporting Files */,
+			);
+			path = AlarmChaserTests;
+			sourceTree = "<group>";
+		};
+		57F3A9021B018F2B0038FB0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57F3A9031B018F2B0038FB0F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57F3A90E1B01936B0038FB0F /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				5711AF061B03371400F9E26C /* sound */,
+				57F3A91C1B0196C40038FB0F /* font */,
+				57F3A9191B01957D0038FB0F /* images */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+		57F3A90F1B0194430038FB0F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				574482EF1B01DC020094A035 /* CustomButton.h */,
+				574482F01B01DC020094A035 /* CustomButton.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		57F3A9101B01944C0038FB0F /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		57F3A9111B0194550038FB0F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				577CE78B1B05E49900B9BB8B /* ShakeViewController.h */,
+				577CE78C1B05E49900B9BB8B /* ShakeViewController.m */,
+				57C86A3F1B038F9C009C11EB /* CalcViewController.h */,
+				57C86A401B038F9C009C11EB /* CalcViewController.m */,
+				57F3A9261B01A3280038FB0F /* SettingViewController.h */,
+				57F3A9271B01A3280038FB0F /* SettingViewController.m */,
+				57F3A9161B0195500038FB0F /* ClockViewController.h */,
+				57F3A9171B0195500038FB0F /* ClockViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		57F3A9121B0194760038FB0F /* ibview */ = {
+			isa = PBXGroup;
+			children = (
+				57F3A8F51B018F2B0038FB0F /* Images.xcassets */,
+				57F3A8F71B018F2B0038FB0F /* LaunchScreen.xib */,
+				57F3A8F21B018F2B0038FB0F /* Main.storyboard */,
+			);
+			name = ibview;
+			sourceTree = "<group>";
+		};
+		57F3A9191B01957D0038FB0F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				57A06BD21B09C0F0009C8A97 /* ico-shake.png */,
+				57A06BD31B09C0F0009C8A97 /* ico-shake@2x.png */,
+				57A06BD41B09C0F0009C8A97 /* ico-shake@3x.png */,
+				57A06BCD1B09BF7C009C8A97 /* ico_calc_back@2x.png */,
+				57A06BCE1B09BF7C009C8A97 /* ico_calc_back@3x.png */,
+				578F6AC01B099DFF00BDCFCE /* ico_ok_arrow@2x.png */,
+				578F6AC11B099DFF00BDCFCE /* ico_ok_arrow@3x.png */,
+				574482F41B0224130094A035 /* ico_ok_arrow.png */,
+				574482F21B01F1340094A035 /* ico_calc_back.png */,
+				57EB5FD31B01D45A00F786C2 /* Alarm-Clock-100.png */,
+				57F3A91A1B01963B0038FB0F /* ico_to_setting_arrow.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		57F3A91C1B0196C40038FB0F /* font */ = {
+			isa = PBXGroup;
+			children = (
+				57F3A91D1B01971E0038FB0F /* AxisStd-ExtraLight.otf */,
+				57F3A91E1B01971E0038FB0F /* AxisStd-Light.otf */,
+				57F3A91F1B01971E0038FB0F /* AxisStd-UltraLight.otf */,
+			);
+			name = font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57F3A8E41B018F2B0038FB0F /* AlarmChaser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F3A9081B018F2B0038FB0F /* Build configuration list for PBXNativeTarget "AlarmChaser" */;
+			buildPhases = (
+				57F3A8E11B018F2B0038FB0F /* Sources */,
+				57F3A8E21B018F2B0038FB0F /* Frameworks */,
+				57F3A8E31B018F2B0038FB0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlarmChaser;
+			productName = AlarmChaser;
+			productReference = 57F3A8E51B018F2B0038FB0F /* AlarmChaser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57F3A8FD1B018F2B0038FB0F /* AlarmChaserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F3A90B1B018F2B0038FB0F /* Build configuration list for PBXNativeTarget "AlarmChaserTests" */;
+			buildPhases = (
+				57F3A8FA1B018F2B0038FB0F /* Sources */,
+				57F3A8FB1B018F2B0038FB0F /* Frameworks */,
+				57F3A8FC1B018F2B0038FB0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57F3A9001B018F2B0038FB0F /* PBXTargetDependency */,
+			);
+			name = AlarmChaserTests;
+			productName = AlarmChaserTests;
+			productReference = 57F3A8FE1B018F2B0038FB0F /* AlarmChaserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57F3A8DD1B018F2B0038FB0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = tongari;
+				TargetAttributes = {
+					57F3A8E41B018F2B0038FB0F = {
+						CreatedOnToolsVersion = 6.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					57F3A8FD1B018F2B0038FB0F = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 57F3A8E41B018F2B0038FB0F;
+					};
+				};
+			};
+			buildConfigurationList = 57F3A8E01B018F2B0038FB0F /* Build configuration list for PBXProject "AlarmChaser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57F3A8DC1B018F2B0038FB0F;
+			productRefGroup = 57F3A8E61B018F2B0038FB0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57F3A8E41B018F2B0038FB0F /* AlarmChaser */,
+				57F3A8FD1B018F2B0038FB0F /* AlarmChaserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57F3A8E31B018F2B0038FB0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F3A8F41B018F2B0038FB0F /* Main.storyboard in Resources */,
+				571FB7EC1B0CABB2002A998F /* InfoPlist.strings in Resources */,
+				57F3A9201B01971E0038FB0F /* AxisStd-ExtraLight.otf in Resources */,
+				578F6AC21B099DFF00BDCFCE /* ico_ok_arrow@2x.png in Resources */,
+				57F3A9221B01971E0038FB0F /* AxisStd-UltraLight.otf in Resources */,
+				57A06BD51B09C0F0009C8A97 /* ico-shake.png in Resources */,
+				57A06BD61B09C0F0009C8A97 /* ico-shake@2x.png in Resources */,
+				57F3A8F91B018F2B0038FB0F /* LaunchScreen.xib in Resources */,
+				577269821B04FDF2009B6507 /* answer_02.caf in Resources */,
+				57EB5FD41B01D45A00F786C2 /* Alarm-Clock-100.png in Resources */,
+				57F3A9211B01971E0038FB0F /* AxisStd-Light.otf in Resources */,
+				577269831B04FDF2009B6507 /* error_02.caf in Resources */,
+				577269841B04FDF2009B6507 /* warning_04-high.caf in Resources */,
+				57A06BD11B09BF7C009C8A97 /* ico_calc_back@3x.png in Resources */,
+				57A06BD01B09BF7C009C8A97 /* ico_calc_back@2x.png in Resources */,
+				57A06BD71B09C0F0009C8A97 /* ico-shake@3x.png in Resources */,
+				57F3A8F61B018F2B0038FB0F /* Images.xcassets in Resources */,
+				574482F51B0224130094A035 /* ico_ok_arrow.png in Resources */,
+				574482F31B01F1340094A035 /* ico_calc_back.png in Resources */,
+				578F6AC31B099DFF00BDCFCE /* ico_ok_arrow@3x.png in Resources */,
+				57F3A91B1B01963B0038FB0F /* ico_to_setting_arrow.png in Resources */,
+				57748E851B1D7EAF009A5E1E /* warning_04-high.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F3A8FC1B018F2B0038FB0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57F3A8E11B018F2B0038FB0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F3A9181B0195500038FB0F /* ClockViewController.m in Sources */,
+				577CE78D1B05E49900B9BB8B /* ShakeViewController.m in Sources */,
+				5711AF051B0334D500F9E26C /* AlarmManager.m in Sources */,
+				5711AF001B0302EB00F9E26C /* UserDefalutManager.m in Sources */,
+				574482F11B01DC020094A035 /* CustomButton.m in Sources */,
+				5780F9E01B058BAE0076BFE9 /* Router.m in Sources */,
+				57F3A9151B0195380038FB0F /* AppDelegate.m in Sources */,
+				57F3A8EB1B018F2B0038FB0F /* main.m in Sources */,
+				5711AEFD1B02D1D500F9E26C /* TimeManager.m in Sources */,
+				57C86A411B038F9C009C11EB /* CalcViewController.m in Sources */,
+				57F3A9281B01A3280038FB0F /* SettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F3A8FA1B018F2B0038FB0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F3A9051B018F2B0038FB0F /* AlarmChaserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57F3A9001B018F2B0038FB0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57F3A8E41B018F2B0038FB0F /* AlarmChaser */;
+			targetProxy = 57F3A8FF1B018F2B0038FB0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		571FB7EE1B0CABB2002A998F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				571FB7ED1B0CABB2002A998F /* Base */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57F3A8F21B018F2B0038FB0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57F3A8F31B018F2B0038FB0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57F3A8F71B018F2B0038FB0F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57F3A8F81B018F2B0038FB0F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57F3A9061B018F2B0038FB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57F3A9071B018F2B0038FB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ATSUSHI SAITO (QB4Y98P34R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "8e53293d-50ba-48d0-b854-e85e1d22ef0a";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57F3A9091B018F2B0038FB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AlarmChaser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		57F3A90A1B018F2B0038FB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AlarmChaser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		57F3A90C1B018F2B0038FB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlarmChaserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlarmChaser.app/AlarmChaser";
+			};
+			name = Debug;
+		};
+		57F3A90D1B018F2B0038FB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlarmChaserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlarmChaser.app/AlarmChaser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57F3A8E01B018F2B0038FB0F /* Build configuration list for PBXProject "AlarmChaser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F3A9061B018F2B0038FB0F /* Debug */,
+				57F3A9071B018F2B0038FB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F3A9081B018F2B0038FB0F /* Build configuration list for PBXNativeTarget "AlarmChaser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F3A9091B018F2B0038FB0F /* Debug */,
+				57F3A90A1B018F2B0038FB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F3A90B1B018F2B0038FB0F /* Build configuration list for PBXNativeTarget "AlarmChaserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F3A90C1B018F2B0038FB0F /* Debug */,
+				57F3A90D1B018F2B0038FB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57F3A8DD1B018F2B0038FB0F /* Project object */;
+}
